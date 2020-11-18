@@ -1,0 +1,32 @@
+[[package]]
+category = "main"
+description = "Cross-platform colored terminal text."
+name = "colorama"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.4.4"
+
+[[package]]
+category = "main"
+description = "Sexy fonts for the console"
+name = "python-cfonts"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
+version = "1.3.1"
+
+[package.dependencies]
+colorama = "*"
+
+[metadata]
+content-hash = "1306adb05dc2d939601a780073bd9d8d194b5f117cc2bca1fdfe3650c5cc9e65"
+python-versions = "^3.8"
+
+[metadata.files]
+colorama = [
+    {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
+    {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
+]
+python-cfonts = [
+    {file = "python-cfonts-1.3.1.tar.gz", hash = "sha256:50d9e3153034d7e27e74c3c62009275ff0fe0d54d8cd3d283e7f014a9d830d43"},
+    {file = "python_cfonts-1.3.1-py2.py3-none-any.whl", hash = "sha256:8329e38f393f7e9cbd8c1c905c9fd8645bf0837348114a281639d619e0a0f4e2"},
+]
